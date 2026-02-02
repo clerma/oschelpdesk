@@ -15,7 +15,7 @@ left:
         subtitle:
           - title: Doc Topics
             url: /docs/doc-main
-      - title: Elements
+      - title: Kids
         id: v-pills-code-tab
         target: v-pills-code
         active: false

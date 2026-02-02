@@ -2,10 +2,10 @@
 title: Table
 container: wide-container
 right_sidebar: false
-category: element
+category: kids
 search: true
 banner: true
-tags: [content,element]
+tags: [content,kids]
 custom_js:
 - assets/prism/prism.js
 - js/jquery.parallax-scroll.js

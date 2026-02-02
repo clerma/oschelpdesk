@@ -4,8 +4,8 @@ container: wide-container
 right_sidebar: true
 search: true
 banner: true
-category: element
-tags: [content,element]
+category: kids
+tags: [content,kids]
 custom_js:
 - assets/prism/prism.js
 - js/jquery.parallax-scroll.js

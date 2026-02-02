@@ -2,12 +2,12 @@
 title: Image Hotspots
 container: wide-container
 right_sidebar: false
-category: element
+category: kids
 search: true
 navbar:
     right_nav_tool: true
 banner: true
-tags: [ hotspot, modal,element]
+tags: [ hotspot, modal,kids]
 custom_js:
 - js/jquery.parallax-scroll.js
 - assets/mcustomscrollbar/jquery.mCustomScrollbar.concat.min.js

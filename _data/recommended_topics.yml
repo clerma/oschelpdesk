@@ -1,4 +1,4 @@
-- title: Elements
+- title: Kids
   img: img/new/smile.png
   child:
     - subtitle: Tabs Widget
@@ -43,7 +43,7 @@
 - title: References
   img: img/new/house.png
   child:
-    - subtitle: Keyboard Shortcuts 
+    - subtitle: Keyboard Shortcuts
       url: /docs/doc-ref-shortcuts
     - subtitle: Footnotes
       url: /docs/doc-ref-footnotes

@@ -1,11 +1,11 @@
 ---
 title: Image Lightbox
 container: wide-container
-category: element
+category: kids
 search: true
 right_sidebar: false
 banner: true
-tags: [image modal,element]
+tags: [image modal,kids]
 custom_js:
 - assets/prism/prism.js
 - js/jquery.parallax-scroll.js

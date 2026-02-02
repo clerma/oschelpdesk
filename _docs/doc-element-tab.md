@@ -7,7 +7,7 @@ search: true
 banner: true
 navbar:
     right_nav_tool: true
-tags: [ Tabs Widget, Process Tab,element]
+tags: [ Tabs Widget, Process Tab,kids]
 custom_js:
 - assets/prism/prism.js
 - js/jquery.parallax-scroll.js
