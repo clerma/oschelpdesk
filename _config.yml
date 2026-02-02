@@ -5,8 +5,8 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              Docy
-description:        Documentation Jekyll theme.
+title:              OSC Help Desk
+description:
 lang:               en
 
 # Site base hostname & protocol, e.g. http://example.com
@@ -25,7 +25,7 @@ white_logo2x: img/logo-w2x.png
 
 
 footer:
-    copyright:     © 2021 All Rights Reserved Design by <a href="https://themeforest.net/user/spider-themes">Spider-themes</a>
+    copyright:     © 2026 All Rights Reserved
 
 # Social icons displayed in footer
 social:
