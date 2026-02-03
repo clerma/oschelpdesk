@@ -1,5 +1,5 @@
 ---
-title: Docy Documentation
+title: OSC Documentation
 container: wide-container
 right_sidebar: false
 category: Doc
@@ -22,9 +22,9 @@ custom_css:
 <article class="documentation_info" id="post">
     <div class="documentation_body" id="documentation">
         <div class="shortcode_title">
-            <h1>Docy Documentation</h1>
+            <h1>OSC Documentation</h1>
             <p>
-                <span>Welcome to Docy !</span>
+                <span>Welcome to OSC !</span>
                 Get familiar with the Stripe products and explore their features:</p>
         </div>
         <div class="row">

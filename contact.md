@@ -12,7 +12,7 @@ search: false
             <h2>Get a touch with
                 <span>Contact Us</span>
             </h2>
-            <p>Docy is here to help. Discover our office locations and different ways to contact us so that we can provide you with the support you need.</p>
+            <p>OSC is here to help. Discover our office locations and different ways to contact us so that we can provide you with the support you need.</p>
         </div>
     </div>
 </div>
@@ -142,7 +142,7 @@ search: false
                     </div>
                     <div class="col-lg-4 form-group">
                         <h6>Email</h6>
-                        <input class="form-control" id="email" name="email" placeholder="info@Docy.com" type="email">
+                        <input class="form-control" id="email" name="email" placeholder="info@OSC.com" type="email">
                     </div>
                     <div class="col-lg-4 form-group">
                         <h6>Phone no</h6>

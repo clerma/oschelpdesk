@@ -5,7 +5,7 @@
                 <a class="btn" href="#">{{page.category}}</a>
             {% endif %}
             <h1>Source Code</h1>
-            <p>Welcome to Docy ! Get familiar with the Docy products and explore their features, guides, tips and tools.
+            <p>Welcome to OSC ! Get familiar with the OSC products and explore their features, guides, tips and tools.
             </p>
         </div>
         <h4 class="c_head load-order-2">HTML Code Blocks</h4>
@@ -96,8 +96,8 @@
         <div class="highlight">
             <pre>
                     <code class="language-php" data-lang="php">
-                        function docy_setup() {
-                            load_theme_textdomain( 'docy', get_template_directory() . '/languages' );
+                        function OSC_setup() {
+                            load_theme_textdomain( 'OSC', get_template_directory() . '/languages' );
 
                             // Add default posts and comments RSS feed links to head.
                             add_theme_support( 'automatic-feed-links' );
@@ -120,11 +120,11 @@
 
                             // This theme uses wp_nav_menu() in one location.
                             register_nav_menus( array(
-                                'main_menu'   => esc_html__( 'Main menu', 'docy' ),
-                                'overlay_menu'   => esc_html__( 'Overlay menu', 'docy' ),
+                                'main_menu'   => esc_html__( 'Main menu', 'OSC' ),
+                                'overlay_menu'   => esc_html__( 'Overlay menu', 'OSC' ),
                             ));
                         }
-                        add_action( 'after_setup_theme', 'docy_setup' );
+                        add_action( 'after_setup_theme', 'OSC_setup' );
                     </code>
                 </pre>
         </div>
