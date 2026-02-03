@@ -106,14 +106,8 @@
                 {% endfor %}
             </ul>
             <div class="right-nav">
-                <a class="nav_btn {{include.btnCls}} " href="{{include.btn_link}}">{{include.btn_title}}</a>
-                {% if page.navbar.right_nav_tool %}
-                <a class="px-2 ml-3" href="#" title="Subscribe to the newsletter">
-                    <ion-icon name="mail"></ion-icon>
-                </a>
-                <a class="px-2" href="#" title="RSS feed">
-                    <ion-icon name="logo-rss"></ion-icon>
-                </a>
+
+
                 <div class="px-2 js-darkmode-btn" title="Toggle dark mode">
                     <label for="something" class="tab-btn tab-btns">
                         <ion-icon class="light-mode" name="contrast"></ion-icon>
@@ -123,7 +117,7 @@
                         <ion-icon class="dark-mode" name="contrast-outline"></ion-icon>
                     </label>
                 </div>
-                {% endif %}
+
             </div>
         </div>
     </div>
