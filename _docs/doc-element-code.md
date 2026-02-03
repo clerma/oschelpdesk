@@ -7,7 +7,7 @@ banner: true
 navbar:
     right_nav_tool: true
 category: kids
-tags: [code,source,customize,kids]
+tags: [production,source,customize,kids]
 custom_js:
 - assets/prism/prism.js
 - js/jquery.parallax-scroll.js

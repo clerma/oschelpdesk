@@ -7,7 +7,7 @@ search: true
 banner: true
 navbar:
     right_nav_tool: true
-tags: [reference,code]
+tags: [reference,production]
 custom_js:
 - js/jquery.parallax-scroll.js
 - assets/font-size/js/rv-jquery-fontsize-2.0.3.min.js
