@@ -93,16 +93,8 @@ left:
           - title: Changelog
             url: /docs/doc-changelog
 
-  - title: Pages
-    dropdown:
-      - title: Onepage Doc
-        url: /onepage
-      - title: Contact
-        url: /contact
-      - title: Typography
-        url: /typography
-      - title: 404 Error
-        url: /404
+  - title: Contact
+    url: /contact
 
   - title: Blog
     url: /blog
