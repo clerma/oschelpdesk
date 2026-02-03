@@ -5,7 +5,7 @@ right_sidebar: true
 search: true
 banner: true
 category: content
-tags: [code,content]
+tags: [production,content]
 custom_js:
 - assets/prism/prism.js
 - js/jquery.parallax-scroll.js

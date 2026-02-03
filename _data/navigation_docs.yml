@@ -2,7 +2,7 @@
   img: img/side-nav/home.png
   url: docs/doc-main/
 
-- title: Elements
+- title: Kids
   img: img/side-nav/briefcase.png
   docs:
     - doc-element-tab
