@@ -87,13 +87,14 @@ body.body_dark {
   .search_form button,.doc_testimonial_slider .item h3{
     color: $black_100;
   }
-  
+
   .first_logo {
     display: none;
   }
 
   .white_logo {
     display: block !important;
+    width: 8em;
   }
 
   .header_logo img.sticky_logo {
