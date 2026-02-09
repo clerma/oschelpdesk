@@ -255,32 +255,33 @@
     });
   }
 
-  /*--------------- nav-sidebar js--------*/
-  if ($(".nav-sidebar > li").hasClass("active")) {
-    $(".nav-sidebar > li.active").find("ul").slideDown(700);
-  }
+ /*--------------- nav-sidebar js --------*/
 
-  function active_dropdown() {
-    $(".nav-sidebar > li .icon").on("click", function (e) {
-      $(this).parent().find("ul").first().toggle(300);
-      $(this).parent().siblings().find("ul").hide(300);
-    });
-  }
+ // Open active menu on load
+ if ($(".nav-sidebar > li").hasClass("active")) {
+   $(".nav-sidebar > li.active").find("ul").slideDown(700);
+ }
 
-  active_dropdown();
+ // Toggle accordion when clicking the parent link OR the icon
+ $(".nav-sidebar").on("click", "> li > .nav-link, > li > .icon", function (e) {
+   var $li = $(this).closest("li");
+   var $submenu = $li.children("ul.dropdown_nav");
 
-  $(".nav-sidebar > li .icon").each(function () {
-    var $this = $(this);
-    $this.on("click", function (e) {
-      var has = $this.parent().hasClass("active");
-      $(".nav-sidebar li").removeClass("active");
-      if (has) {
-        $this.parent().removeClass("active");
-      } else {
-        $this.parent().addClass("active");
-      }
-    });
-  });
+   // Only toggle if this item actually has a submenu
+   if ($submenu.length) {
+     e.preventDefault();
+
+     // Toggle this submenu
+     $submenu.slideToggle(300);
+
+     // Close siblings
+     $li.siblings().removeClass("active").children("ul.dropdown_nav").slideUp(300);
+
+     // Active class toggle
+     $li.toggleClass("active");
+   }
+ });
+
 
   /*--------------- mobile dropdown js--------*/
   function active_dropdown2() {

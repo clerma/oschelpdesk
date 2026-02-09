@@ -8,6 +8,7 @@ layout: null
       "category" : "{{ doc.category }}",
       "tags"     : "{{ doc.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ doc.url }}",
+      "content": {{ doc.content | strip_html | strip_newlines | jsonify }},
       "date"     : "{{ doc.date }}",
       "type"     : "Doc"
     }{% unless forloop.last %},{% endunless %}

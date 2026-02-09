@@ -298,43 +298,44 @@
     });
   }
 
-  /*--------------- nav-sidebar js--------*/
+/*--------------- nav-sidebar js --------*/
 
-  $(".nav-sidebar > li ").each(function () {
-    var $this = $(this);
-   if($this.find('.dropdown_nav li a').hasClass("active")){
-    $this.addClass('active')
-   }
-  });
-
+  // Open active menu on load
   if ($(".nav-sidebar > li").hasClass("active")) {
     $(".nav-sidebar > li.active").find("ul").slideDown(700);
   }
 
- 
- 
+  // Toggle accordion when clicking the parent link OR the icon
+  $(".nav-sidebar").on("click", "> li > .nav-link, > li > .icon", function (e) {
+    var $li = $(this).closest("li");
+    var $submenu = $li.children("ul.dropdown_nav");
 
-  function active_dropdown() {
-    $(".nav-sidebar > li .icon").on("click", function (e) {
-      $(this).parent().find("ul").first().toggle(300);
-      $(this).parent().siblings().find("ul").hide(300);
-    });
-  }
+    // Only toggle if this item actually has a submenu
+    if ($submenu.length) {
+      e.preventDefault();
 
-  active_dropdown();
+      // Toggle this submenu
+      $submenu.slideToggle(300);
 
-  $(".nav-sidebar > li .icon").each(function () {
-    var $this = $(this);
-    $this.on("click", function (e) {
-      var has = $this.parent().hasClass("active");
-      $(".nav-sidebar li").removeClass("active");
-      if (has) {
-        $this.parent().removeClass("active");
-      } else {
-        $this.parent().addClass("active");
-      }
-    });
+      // Close siblings
+      $li.siblings().removeClass("active").children("ul.dropdown_nav").slideUp(300);
+
+      // Active class toggle
+      $li.toggleClass("active");
+    }
   });
+/* -------- keep accordion open on page load -------- */
+
+  $(".nav-sidebar li").each(function () {
+    var $li = $(this);
+
+    // If this item contains an active link
+    if ($li.find("a.active").length) {
+      $li.addClass("active");
+      $li.children("ul.dropdown_nav").show();
+    }
+  });
+
 
   /*--------------- blog-single2-sidebar js--------*/
   if (
