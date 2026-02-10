@@ -87,7 +87,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: true
   Camps:
-    path:
+    path: _camps
     glob:
     name:
     singular_name:
@@ -115,7 +115,7 @@ collections_config:
     schemas:
     schema_key:
   Events:
-    path:
+    path: _events
     glob:
     name:
     singular_name:
