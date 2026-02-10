@@ -1,5 +1,5 @@
 - title: Kids
-  img: img/new/smile.png
+  img: children
   child:
     - subtitle: Tabs Widget
       url: /docs/doc-element-tab
@@ -12,8 +12,8 @@
     - subtitle: Image Hotspots Widget
       url: /docs/doc-element-hotspots
 
-- title: Content
-  img: img/new/doc.png
+- title: Production
+  img: photo-film-music
   child:
     - subtitle: Video Widget
       url: /docs/doc-content-video
@@ -26,8 +26,8 @@
     - subtitle: Typography
       url: /typography
 
-- title: Layout
-  img: img/new/bag.png
+- title: Nursery
+  img: baby
   child:
     - subtitle: Aesthetic Banner Design
       url: /docs/doc-layout-banner-gradient
@@ -40,8 +40,8 @@
     - subtitle: Without Banner
       url: /docs/doc-layout-banner-empty
 
-- title: References
-  img: img/new/house.png
+- title: Coffee Shop
+  img: coffee
   child:
     - subtitle: Keyboard Shortcuts
       url: /docs/doc-ref-shortcuts
