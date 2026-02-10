@@ -13,17 +13,13 @@ audience:
   - Team Leads
 ---
 
-<div class="shortcode_info documentation_info rvfs-section">
-  <article class="shortcode_text">
 
-    <div class="shortcode_title">
-      <a class="btn" href="#">Production</a>
       <h1>Using ProPresenter for Sunday Services</h1>
       <p>
         This article walks through the basic workflow for running ProPresenter during a Sunday service at Our Savior’s Church.
         It is intended for production volunteers and team leads serving on lyrics or media.
       </p>
-    </div>
+
 
     <h4 class="c_head load-order-2">Before Service Begins</h4>
     <p>
@@ -95,6 +91,3 @@ audience:
       <li>Do not shut down unless instructed</li>
       <li>Report any issues encountered during service</li>
     </ul>
-
-  </article>
-</div>

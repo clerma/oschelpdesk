@@ -29,7 +29,14 @@ preloader: true
             {% endif %}
 
             <div class="{{col_size}} doc-middle-content">
+                <div class="shortcode_info documentation_info rvfs-section">
+                  <article class="shortcode_text">
+                  <a class="btn" href="#">{{page.catagory}}</a>
+
                 {{ content }}
+
+                  </article>
+                </div>
                 {% unless page.noDocBottom %}
                     {% include doc_bottom.html %}
 
