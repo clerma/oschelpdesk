@@ -549,7 +549,7 @@ button.mfp-close {
   }
   .title {
     font-size: 14px;
-    color: #1d2746;
+    color: $h_title;
     font-weight: 500;
     padding-top: 0;
     margin-bottom: 8px;
@@ -893,7 +893,7 @@ button.mfp-close {
       font-size: 16px;
     }
     strong {
-      color: #1d2746;
+      color: $h_title;
       padding-bottom: 7px;
       display: inline-block;
       font-size: 16px;
@@ -1022,7 +1022,7 @@ ul.ordered-list {
   }
   .c_version {
     flex: 1;
-    background: #1d2746;
+    background: $h_title;
     text-align: center;
     font-size: 14px;
     font-weight: 400;

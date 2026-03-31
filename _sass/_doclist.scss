@@ -10,7 +10,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: #1d2746;
+    background: $h_title;
     opacity: 0;
     z-index: 1;
     visibility: hidden;
@@ -1211,7 +1211,7 @@ body:not(.onepage-doc) .sticky_menu {
   font-size: 16px;
   text-transform: uppercase;
   color: #fff;
-  background: #1d2746;
+  background: $h_title;
   border-radius: 4px;
   line-height: 22px;
   padding: 13px 30px;

@@ -553,7 +553,7 @@
         &:before {
           transform: scaleX(1);
           opacity: 1;
-          background: #209ff0;
+          background: $brand_color;
         }
       }
     }
@@ -566,7 +566,7 @@
         &:before {
           transform: scaleX(1);
           opacity: 1;
-          background: #209ff0;
+          background: $brand_color;
         }
       }
       @media (min-width: 992px) {
@@ -707,7 +707,7 @@
   }
   .menu_toggle .hamburger span,
   .menu_toggle .hamburger-cross span {
-    background: #1d2746;
+    background: $h_title;
   }
   & + div,
   & + section {
@@ -740,7 +740,7 @@
     display: none;
   }
   .mobile_main_menu .menu_toggle .hamburger span {
-    background: #1d2746;
+    background: $h_title;
   }
 }
 
@@ -917,7 +917,7 @@
     right: 15px;
     border: 0;
     padding: 0;
-    color: #1d2746;
+    color: $h_title;
     background: transparent;
     font-size: 14px;
     z-index: 3;
@@ -957,7 +957,7 @@
         padding-bottom: 25px;
         padding-top: 25px;
         > .nav-link {
-          color: #1d2746;
+          color: $h_title;
         }
         &:hover,
         &.active {
@@ -1042,7 +1042,7 @@
   }
   .menu_toggle .hamburger span,
   .menu_toggle .hamburger-cross span {
-    background: #1d2746;
+    background: $h_title;
   }
   &.dark_menu {
     .menu {
@@ -1119,7 +1119,7 @@
 }
 
 .dark_menu .menu_toggle .hamburger span, .dark_menu .menu_toggle .hamburger-cross span {
-  background: #1d2746;
+  background: $h_title;
 }
 
 .navbar-toggler {
@@ -1243,7 +1243,7 @@
     padding-right: 15px;
     .close_nav {
       font-size: 28px;
-      color: #1d2746;
+      color: $h_title;
       margin-right: 15px;
       margin-top: -5px;
       i {

@@ -10,7 +10,7 @@
     .author-name{
       font-size: 16px;
       font-weight: 500;
-      color: #1d2746;
+      color: $h_title;
       &:hover{
         color: $brand_color;
       }
@@ -71,11 +71,11 @@
   .too-btn{
     background: #fff;
     border: 1px solid #d0d8dc;
-    color: #1d2746;
+    color: $h_title;
     &:hover{
       background: #fff;
-      border: 1px solid #1d2746;
-      color: #1d2746;
+      border: 1px solid $h_title;
+      color: $h_title;
     }
   }
 }
@@ -85,7 +85,7 @@
   padding: 40px 15px 15px 0;
   h1{
     font-size: 24px;
-    color: #1d2746;
+    color: $h_title;
     line-height: 1.4;
   }
   .badge{
@@ -122,7 +122,7 @@
 }
 .question-icon{
   font-size: 50px;
-  color: #1d2746;
+  color: $h_title;
   margin-right: 15px;
   font-weight: 600;
 }

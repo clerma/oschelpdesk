@@ -661,7 +661,7 @@
 
 /*============== Start doc_action_area_two css =============*/
 .doc_action_area_three {
-    background: #1d2746;
+    background: $h_title;
     padding: 140px 0;
     position: relative;
     z-index: 1;
@@ -729,7 +729,7 @@
             }
 
             &:hover {
-                background: #1d2746;
+                background: $h_title;
 
                 i {
                     transform: translateX(5px);

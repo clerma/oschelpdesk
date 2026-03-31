@@ -174,7 +174,7 @@
 .blockquote{
     background: transparent;
     padding: 0 0 0 40px;
-    border-color: #1d2746;
+    border-color: $h_title;
     border-width: 2px;
     margin-bottom: 55px;
     &:before,&:after{
