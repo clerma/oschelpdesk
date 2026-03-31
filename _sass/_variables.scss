@@ -1,8 +1,9 @@
 /*font Variables*/
 $rob: "Roboto", sans-serif;
-$great: "G    reat Vibes", cursive;
+$rob_slab: "Roboto Slab", serif;
+$great: "Great Vibes", cursive;
 
-$h_title: #1d2746;
+$h_title: #1F568C;
 $p_color: #6b707f;
 $black_100: #d6d9dc;
 $black_150: #c8ccd0;
@@ -16,8 +17,8 @@ $black_700: #3c4146;
 $black_750: #2f3337;
 $black_800: #242729;
 $black_900: #0c0d0e;
-$brand_color : #4c4cf1;
-$baseColor2: #4c4cf1;
+$brand_color : #468FD8;
+$baseColor2: #468FD8;
 $hover3: #c6e7f7;
 
 // Mixins
@@ -32,7 +33,7 @@ $hover3: #c6e7f7;
 
 /**=== Functions ===**/
 @function brand_color_rgba($alpha) {
-  @return rgba(76, 76, 241, $alpha);
+  @return rgba(70, 143, 216, $alpha);
 }
 
 // Placeholder Mixins

@@ -236,10 +236,10 @@
     }
   }
   .custom-select ul li:hover, .custom-select ul li.selected {
-    color: #4c4cf1;
+    color: $brand_color;
   }
   .custom-select ul li:before {
-    background: #4c4cf1;
+    background: $brand_color;
   }
 }
 
@@ -305,7 +305,7 @@
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;
-  color: #4c4cf1;
+  color: $brand_color;
   display: inline-block;
   margin: 16px 50px 12px;
   i {
@@ -334,7 +334,7 @@
     font-weight: 700;
     margin-bottom: 2px;
     &:hover {
-      color: #4c4cf1;
+      color: $brand_color;
     }
   }
   p {
@@ -416,7 +416,7 @@
     margin-bottom: 18px;
     transition: color 0.2s linear;
     &:hover {
-      color: #4c4cf1;
+      color: $brand_color;
     }
   }
   ul {
@@ -432,13 +432,13 @@
         left: -5px;
         width: auto;
         font-size: 18px;
-        color: #4c4cf1;
+        color: $brand_color;
         top: -2px;
       }
       a {
         color: #6b6b80;
         &:hover {
-          color: #4c4cf1;
+          color: $brand_color;
         }
       }
       & + li {
@@ -450,12 +450,12 @@
 .question_text {
   font-size: 16px;
   line-height: 24px;
-  color: #4c4cf1;
+  color: $brand_color;
   font-weight: 500;
   margin-top: 35px;
   display: inline-block;
   &:hover {
-    color: #4c4cf1;
+    color: $brand_color;
   }
 }
 /*============== recommended_topic_area css  ===========*/
@@ -487,7 +487,7 @@
     line-height: 22px;
     margin-top: 40px;
     &:hover {
-      color: #4c4cf1;
+      color: $brand_color;
     }
   }
 }
@@ -510,7 +510,7 @@
     text-align: center;
     font-size: 36px;
     background: rgba(76, 76, 241, 0.06);
-    color: #4c4cf1;
+    color: $brand_color;
     margin-right: 50px;
   }
   h4 {
@@ -520,7 +520,7 @@
     margin-bottom: 5px;
     transition: color 0.2s linear;
     &:hover {
-      color: #4c4cf1;
+      color: $brand_color;
     }
   }
   p {
@@ -601,7 +601,7 @@
       font-family: $rob;
       font-weight: 400;
       font-size: 150px;
-      color: #4c4cf1;
+      color: $brand_color;
       opacity: 0.1;
       position: absolute;
       left: -5px;
@@ -656,7 +656,7 @@
       }
       &.slick-active {
         button {
-          background: #4c4cf1;
+          background: $brand_color;
         }
       }
     }
@@ -896,7 +896,7 @@
         transition: all 0.2s linear;
         &:hover {
           background: #e3e3fb;
-          color: #4c4cf1;
+          color: $brand_color;
         }
       }
     }
@@ -915,7 +915,7 @@
           margin-right: 14px;
         }
         &:hover {
-          color: #4c4cf1;
+          color: $brand_color;
         }
       }
       & + li {
@@ -932,7 +932,7 @@
     font-size: 14px;
     color: #6b707f;
     span {
-      color: #4c4cf1;
+      color: $brand_color;
     }
   }
 }
@@ -946,7 +946,7 @@
       color: #6b707f;
       transition: all 0.2s;
       &:hover {
-        color: #4c4cf1;
+        color: $brand_color;
       }
     }
   }

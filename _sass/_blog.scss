@@ -1084,7 +1084,7 @@ blockquote {
 
         &.active > {
           .nav-link {
-            color: #4c4cf1;
+            color: $brand_color;
           }
         }
 
@@ -1099,13 +1099,13 @@ blockquote {
 
     &.active >{
       & .nav-link {
-        color: #4c4cf1 !important;
+        color: $brand_color !important;
 
         &::before {
           content: "";
           width: 2px;
           bottom: 0;
-          background: #4c4cf1;
+          background: $brand_color;
           position: absolute;
           top: 0;
           left: -15px;
@@ -1120,7 +1120,7 @@ blockquote {
     color: #697386 !important;
 
     &:hover {
-      color: #4c4cf1 !important;
+      color: $brand_color !important;
     }
   }
 }
