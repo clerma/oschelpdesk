@@ -82,7 +82,7 @@
     .total-count {
         position: relative;
         z-index: 22;
-        color: #a262f8;
+        color: $brand_color;
         font-size: 30px;
         font-weight: 700;
 
@@ -157,14 +157,14 @@
 
         &.color-two {
             .counterup {
-                color: #f9327a;
+                color: $brand_color;
             }
 
             .border-image {
                 &:before {
                     left: auto;
                     right: 0;
-                    background: #fa5d96;
+                    background: $brand_color;
                 }
             }
         }

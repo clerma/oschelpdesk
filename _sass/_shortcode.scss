@@ -642,7 +642,7 @@ button.mfp-close {
 .img_pointing {
   width: 10px;
   height: 10px;
-  background: #a54ffe;
+  background: $brand_color;
   border-radius: 50%;
   position: absolute;
   cursor: pointer;
@@ -653,7 +653,7 @@ button.mfp-close {
     height: 100%;
     position: absolute;
     border-radius: 50%;
-    background: #a54ffe;
+    background: $brand_color;
   }
   &:before {
     transform: scale(2.1);
@@ -734,8 +734,8 @@ button.mfp-close {
   }
 }
 .light_blue {
-  background: #ece6fc;
-  color: #784bfb;
+  background: #deeaf6;
+  color: $brand_color;
 }
 .light_red {
   background: #fce6e6;
@@ -772,10 +772,10 @@ button.mfp-close {
   }
 }
 .purpale_btn {
-  background: #fad9ea;
-  color: #e32a8b;
+  background: #deeaf6;
+  color: $brand_color;
   &:hover {
-    background: #e32a8b;
+    background: $brand_color;
     color: #fff;
   }
 }
@@ -788,10 +788,10 @@ button.mfp-close {
   }
 }
 .violate_btn {
-  background: #e8d9fa;
-  color: #9744fd;
+  background: #deeaf6;
+  color: $brand_color;
   &:hover {
-    background: #9744fd;
+    background: $brand_color;
     color: #fff;
   }
 }

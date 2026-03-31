@@ -271,14 +271,14 @@
 
 .badge {
   font-size: 12px;
-  background: #8152e0;
+  background: $brand_color;
   padding: 2px 5px 0;
   color: #fff;
   border-radius: 3px;
   margin-right: 5px;
   display: inline-block;
   line-height: 1.45;
-  border-bottom: 1px solid #6030c0;
+  border-bottom: 1px solid $h_title;
   vertical-align: middle;
   font-weight: 500;
   height: 22px;
@@ -315,13 +315,13 @@
   }
 
   &.color-pink {
-    background: #f053b3;
-    border-color: #c91c86;
+    background: $brand_color;
+    border-color: $h_title;
   }
 
   &.color-pink {
-    background: #f053b3;
-    border-color: #c91c86;
+    background: $brand_color;
+    border-color: $h_title;
   }
 }
 

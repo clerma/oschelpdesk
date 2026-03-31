@@ -140,7 +140,7 @@
     font-size: 14px;
     font-weight: 500;
     color: #fff;
-    background: #0d0d75;
+    background: $h_title;
     padding: 10px 48px;
     border-radius: 45px;
     border: 0;
@@ -148,7 +148,7 @@
     transition: all 0.2s linear;
     &:hover {
       background: #fff;
-      color: #0d0d75;
+      color: $h_title;
     }
   }
 }
@@ -218,7 +218,7 @@
                 position: absolute;
                 left: -1px;
                 top: 0;
-                background: #4a4ad2;
+                background: $brand_color;
                 opacity: 0;
                 transition: all 0.2s linear;
               }
@@ -265,7 +265,7 @@
         font-size: 13px;
         padding: 0 19px;
         border-radius: 45px;
-        background: #4a4ad2;
+        background: $brand_color;
         color: #fff;
       }
     }
@@ -321,15 +321,15 @@
   width: calc(100% / 3);
   float: left;
   padding: 35px 30px;
-  border-bottom: 1px solid #f1f1f7;
-  border-left: 1px solid #f1f1f7;
+  border-bottom: 1px solid #eef3fa;
+  border-left: 1px solid #eef3fa;
   img {
     margin-right: 15px;
   }
   h4 {
     font-size: 16px;
     line-height: 26px;
-    color: #232361;
+    color: $h_title;
     font-family: $rob;
     font-weight: 700;
     margin-bottom: 2px;
@@ -372,7 +372,7 @@
     left: 120px;
   }
   &.two {
-    background: #5e44ff;
+    background: $brand_color;
     width: 100px;
     height: 100px;
     top: 160px;
@@ -389,7 +389,7 @@
   h2 {
     font-size: 34px;
     font-weight: 700;
-    color: #232361;
+    color: $h_title;
     margin-bottom: 15px;
   }
   p {
@@ -410,7 +410,7 @@
   }
   h3 {
     font-size: 18px;
-    color: #232361;
+    color: $h_title;
     font-weight: 700;
     line-height: 26px;
     margin-bottom: 18px;
@@ -436,7 +436,7 @@
         top: -2px;
       }
       a {
-        color: #6b6b80;
+        color: $p_color;
         &:hover {
           color: $brand_color;
         }
@@ -515,7 +515,7 @@
   }
   h4 {
     font-size: 16px;
-    color: #232361;
+    color: $h_title;
     font-weight: 700;
     margin-bottom: 5px;
     transition: color 0.2s linear;
@@ -543,7 +543,7 @@
         border: 2px solid #fff;
         font-size: 14px;
         font-weight: 500;
-        color: #232361;
+        color: $h_title;
         text-align: center;
         z-index: 1;
         position: relative;
@@ -614,14 +614,14 @@
     h3 {
       font-size: 34px;
       line-height: 52px;
-      color: #232361;
+      color: $h_title;
       font-weight: 400;
       margin-bottom: 20px;
     }
     .name {
       font-size: 14px;
       font-weight: 700;
-      color: #232361;
+      color: $h_title;
       margin-bottom: 5px;
       span {
         font-weight: 400;
@@ -800,14 +800,14 @@
       border: 0;
       font-size: 14px;
       font-weight: 500;
-      background: #0d0d75;
+      background: $h_title;
       padding: 10px 30px;
       color: #fff;
       margin-left: 10px;
       transition: background 0.4s linear, color 0.3s;
       &:hover {
         background: #fff;
-        color: #0d0d75;
+        color: $h_title;
       }
     }
     ul {
@@ -865,7 +865,7 @@
 }
 .f_title_two {
   font-size: 18px;
-  color: #232361;
+  color: $h_title;
   margin-bottom: 28px;
 }
 .doc_about_widget {
@@ -892,7 +892,7 @@
         font-size: 14px;
         line-height: 45px;
         border-radius: 10px;
-        background: #f2f2f7;
+        background: #eef3fa;
         transition: all 0.2s linear;
         &:hover {
           background: #e3e3fb;
@@ -925,7 +925,7 @@
   }
 }
 .doc_footer_bottom {
-  border-top: 1px solid #f0f0f7;
+  border-top: 1px solid #eef3fa;
   padding: 30px 0 30px;
   p {
     margin-bottom: 0;

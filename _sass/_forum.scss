@@ -68,7 +68,7 @@
 
       &:nth-child(1) {
         i {
-          color: #f06292;
+          color: $brand_color;
         }
       }
     }
@@ -257,7 +257,7 @@
           vertical-align: -3px;
 
           &.color-pupple {
-            background: #8152e0;
+            background: $brand_color;
           }
 
           &.color-yellow {
@@ -678,7 +678,7 @@ ul.forum-titles {
         border-radius: 25px;
         font-size: 14px;
         font-weight: 500;
-        color: #232361;
+        color: $h_title;
         i {
           padding-right: 2px;
         }
@@ -714,9 +714,9 @@ ul.forum-titles {
   margin-bottom: 45px;
   input {
     height: 50px;
-    border: 1px solid #f1f1f8;
+    border: 1px solid #eef3fa;
     border-radius: 25px;
-    background: #f7f7fb;
+    background: #f2f7fc;
     padding: 0 30px;
     line-height: 50px;
     outline: none !important;
@@ -726,8 +726,8 @@ ul.forum-titles {
     color: #848996;
     font-family: $rob;
     &:focus {
-      border: 1px solid #f1f1f8;
-      background: #f7f7fb;
+      border: 1px solid #eef3fa;
+      background: #f2f7fc;
       outline: none !important;
       box-shadow: none !important;
     }
@@ -762,7 +762,7 @@ ul.forum-titles {
 }
 .forum_topic_list {
   h2 {
-    color: #232361;
+    color: $h_title;
     font-size: 20px;
     font-weight: 900;
     margin-bottom: 20px;
@@ -781,7 +781,7 @@ ul.forum-titles {
         margin-right: 25px;
         line-height: 58px;
         i {
-          color: #f06292;
+          color: $brand_color;
           font-size: 14px;
           margin-right: 7px;
         }
@@ -914,7 +914,7 @@ ul.forum-titles {
                   position: relative;
                   top: 2px;
                   &.blue {
-                    background: #5319e7;
+                    background: $brand_color;
                   }
                   &.dark_blue {
                     background: #051375;
@@ -923,7 +923,7 @@ ul.forum-titles {
                     background: #128a0c;
                   }
                   &.pink {
-                    background: #cc317c;
+                    background: $brand_color;
                   }
                 }
                 ion-icon {
@@ -1071,7 +1071,7 @@ ul.forum-titles {
                 font-size: 14px;
                 font-weight: 400;
                 padding: 0 6px;
-                background: #8152e0;
+                background: $brand_color;
                 border-radius: 3px;
                 margin-left: 7px;
                 &.yellow {
@@ -1092,7 +1092,7 @@ ul.forum-titles {
                   background: #27b2da;
                 }
                 &.pink {
-                  background: #f053b3;
+                  background: $brand_color;
                 }
                 &.greenl {
                   background: #1eba17;
@@ -1182,7 +1182,7 @@ ul.forum-titles {
     line-height: 36px;
     p {
       font-size: 14px;
-      color: #6b6b80;
+      color: $p_color;
       font-weight: 400;
       margin-bottom: 0;
     }
@@ -1199,7 +1199,7 @@ ul.forum-titles {
             background: #f8f8f8;
             padding: 0;
             font-size: 14px;
-            color: #6b6b80;
+            color: $p_color;
             height: 36px;
             width: 36px;
             text-align: center;
@@ -1235,7 +1235,7 @@ ul.forum-titles {
       }
     }
     .p_info_item {
-      border: 1px solid #f1f1f8;
+      border: 1px solid #eef3fa;
       text-align: center;
       padding-bottom: 40px;
       padding-top: 40px;
@@ -1288,7 +1288,7 @@ ul.forum-titles {
       overflow: hidden;
     }
     a {
-      color: #6b6b80;
+      color: $p_color;
       display: block;
       overflow: hidden;
       font-weight: 400;
@@ -1299,7 +1299,7 @@ ul.forum-titles {
   }
 }
 .p_social {
-  border-top: 1px solid #f0f0f7;
+  border-top: 1px solid #eef3fa;
   margin-left: -40px;
   margin-right: -40px;
   padding-top: 22px;
@@ -1315,7 +1315,7 @@ ul.forum-titles {
     a {
       height: 45px;
       width: 45px;
-      background: #f2f2f7;
+      background: #eef3fa;
       color: #838793;
       font-size: 14px;
       text-align: center;

@@ -50,7 +50,7 @@
     }
     p{
         .tooltips_one{
-            color: #4b5ffa;
+            color: $brand_color;
         }
         .tooltips_two{
             color: #ef971a;
@@ -61,18 +61,18 @@
 .tooltip_blue{
     .arrow{
         &:before{
-            border-top-color: #4b5ffa;
+            border-top-color: $brand_color;
         }
     }
     &.bs-tooltip-bottom{
         .arrow{
             &:before{
-                border-bottom-color: #4b5ffa;
+                border-bottom-color: $brand_color;
             }
         }
     }
     .tooltip-inner{
-        background: #4b5ffa;
+        background: $brand_color;
     }
 }
 .tooltip_danger.show{
@@ -103,7 +103,7 @@
             float:left;
             font-size: 54px;
             margin-right:10px;
-            color:#fc5bc1;
+            color:$brand_color;
             font-weight: 700;
             line-height: 55px;
             font-family: $rob;
