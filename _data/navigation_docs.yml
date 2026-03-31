@@ -1,42 +1,39 @@
 - title: Home
   img: img/side-nav/home.png
-  url: docs/doc-main/
+  url: docs/ProPresenter/
 
-- title: Kids
+- title: Production
+  img: img/side-nav/terminals.png
+  docs:
+    - ProPresenter
+    - turn-on-broadcast-suite
+    - turn-on-the-sanctuary
+    - turn-on-the-sound
+
+- title: Kids Ministry
+  img: img/side-nav/smiles.png
+  docs:
+    - turn-on-kids-room
+
+- title: Finance
   img: img/side-nav/briefcase.png
   docs:
-    - doc-element-tab
-    - doc-element-accordion
-    - doc-element-notice
-    - doc-element-table
-    - doc-element-hotspots
-    - doc-element-code
-    - doc-element-lightbox
+    - finance-check-requests
 
-- title: Content
+- title: Creative
+  img: img/side-nav/edit.png
+  docs:
+    - creative-graphic-design-request
+    - creative-video-request
+    - creative-web-request
+    - creative-photography-request
+
+- title: Facilities
+  img: img/side-nav/home-2.png
+  docs:
+    - facilities-maintenance-request
+
+- title: Administrative
   img: img/side-nav/document.png
   docs:
-    - doc-content-image
-    - doc-content-video
-    - doc-content-tooltip
-
-- title: Layouts
-  img: img/side-nav/layout.png
-  docs:
-    - doc-layout-full-width
-    - doc-layout-left-sidebar
-    - doc-layout-banner-gradient
-    - doc-layout-banner-empty
-
-- title: Reference
-  img: img/side-nav/chat1.png
-  docs:
-    - doc-ref-cheatsheet
-    - doc-ref-footnote
-    - doc-ref-tour
-    - doc-ref-can-use
-    - doc-ref-shortcuts
-
-- title: Change log
-  img: img/side-nav/clock.png
-  url: docs/doc-changelog/
+    - administrative-waiver-request
